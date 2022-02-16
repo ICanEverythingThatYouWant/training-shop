@@ -19,16 +19,16 @@ function Header(){
         <div className='headerInfo'>
             <div className='headerDescription'>
                 <li>
-                    <img src={phoneIcon}  alt='agag'/>
-                    <a className='textNumber'> +375 29 100 20 30 </a>
+                    <img src={phoneIcon}  alt='icon'/>
+                    <a href='1' className='textNumber'> +375 29 100 20 30 </a>
                 </li>
                 <li>
                     <img src={locationIcon} alt='icon'/>
-                    <a className="textLocation">Belarus, Gomel, Lange 17 </a>
+                    <a href='1' className="textLocation">Belarus, Gomel, Lange 17 </a>
                 </li>
                 <li>
                     <img src={timeWorkIcon} alt='icon'/>
-                    <a className='textTimeWork'>All week 24/7</a>
+                    <a href='1' className='textTimeWork'>All week 24/7</a>
                 </li>
                 <div className='iconMessenger'>
                     <li>
@@ -51,13 +51,13 @@ function Header(){
         <a href="/Main" className='logo' > <img src={CleverShopLogo}  alt='agag'/>
         </a>
         <ul className='mnu_top'>
-            <li><a href='#'>About Us</a></li>
+            <li><a href='1'>About Us</a></li>
             <li><a href="/Women">Women</a></li>
             <li><a href='/Men'>Men</a></li>
-            <li><a href='#'>Beauty</a></li>
-            <li><a href='#'>Accessories</a></li>
-            <li><a href='#'>Blog</a></li>
-            <li><a href='#'>Contact</a></li>
+            <li><a href='1'>Beauty</a></li>
+            <li><a href='1'>Accessories</a></li>
+            <li><a href='1'>Blog</a></li>
+            <li><a href='1'>Contact</a></li>
         </ul>
         <ul className='mnu_right'>
             <li>

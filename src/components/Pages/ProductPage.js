@@ -57,7 +57,7 @@ function ProductPage() {
                 <b>
                    ► Women►Women's tracksuit Q109
                 </b>
-                <img src={share}/>
+                <img src={share} alt='icon'/>
                 <span>
                         Share
                     </span>
@@ -155,11 +155,11 @@ function ProductPage() {
             <div className='water-line__price'>
             </div>
             <div className='product-item__help'>
-                <img src={carProduct}/>
+                <img src={carProduct} alt='icon'/>
                 <span>Shipping & Delivery</span>
-                <img src={reloadedProduct}/>
+                <img src={reloadedProduct} alt='icon'/>
                 <span>Returns & Exchanges</span>
-                <img src={mailIconProduct}/>
+                <img src={mailIconProduct} alt='icon'/>
                 <span>Ask a question</span>
             </div>
             <div className='product-method__pay'>
@@ -167,13 +167,13 @@ function ProductPage() {
                     guaranteed safe checkout
                 </span>
                 <div className='pay-method'>
-                <img src={methodPay1}/>
-                <img src={methodPay2}/>
-                <img src={methodPay3}/>
-                <img src={methodPay4}/>
-                <img src={methodPay5}/>
-                <img src={methodPay6}/>
-                <img src={methodPay7}/>
+                <img src={methodPay1} alt='icon'/>
+                <img src={methodPay2} alt='icon'/>
+                <img src={methodPay3} alt='icon'/>
+                <img src={methodPay4} alt='icon'/>
+                <img src={methodPay5} alt='icon'/>
+                <img src={methodPay6} alt='icon'/>
+                <img src={methodPay7} alt='icon'/>
                 </div>
             </div>
             <div className='product-item__description'>
@@ -213,32 +213,32 @@ function ProductPage() {
                     REVIEWS
                 </span>
                 <div className='product-item__write'>
-                    <img src={rating}/>
-                    <img src={rating}/>
-                    <img src={rating}/>
-                    <img src={rating}/>
-                    <img src={rating}/>
+                    <img src={rating} alt='icon'/>
+                    <img src={rating} alt='icon'/>
+                    <img src={rating} alt='icon'/>
+                    <img src={rating} alt='icon'/>
+                    <img src={rating} alt='icon'/>
                     <span>2 Reviews </span>
-                    <img className='iconMessage' src={message}/>
+                    <img className='iconMessage' src={message} alt='icon'/>
                     <span>Write a review </span>
                 </div>
                 <div className='product-item__comment'>
                     <b>Oleh Chabanov </b>
                     <div className='image'>
-                    <img src={rating}/>
-                    <img src={rating}/>
-                    <img src={rating}/>
-                    <img src={rating}/>
-                    <img src={rating}/>
+                    <img src={rating} alt='icon'/>
+                    <img src={rating} alt='icon'/>
+                    <img src={rating} alt='icon'/>
+                    <img src={rating} alt='icon'/>
+                    <img src={rating} alt='icon'/>
                     </div>
                     <span>On the other hand, we denounce with righteous indignation and like men who are so beguiled and demoralized by the charms of pleasure of the moment </span>
                     <b>ShAmAn design </b>
                     <div className='lastComment'>
-                    <img src={rating}/>
-                    <img src={rating}/>
-                    <img src={rating}/>
-                    <img src={rating}/>
-                    <img src={rating}/>
+                    <img src={rating} alt='icon'/>
+                    <img src={rating} alt='icon'/>
+                    <img src={rating} alt='icon'/>
+                    <img src={rating} alt='icon'/>
+                    <img src={rating} alt='icon'/>
                     </div>
                     <span>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti </span>
                 </div>
@@ -248,8 +248,8 @@ function ProductPage() {
                     RELATED PRODUCTS
                 </span>
                 <div className='arrow-item__related'>
-                <img src={arrowRight}/>
-                <img src={arrowLeft}/>
+                <img src={arrowRight} alt='icon'/>
+                <img src={arrowLeft} alt='icon'/>
                 </div>
                 <div className='womenCard'>
                     {arrWomen.map((obj) => (

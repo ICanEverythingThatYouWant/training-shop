@@ -28,7 +28,7 @@ function Banner(){
             <div className='titleMen'>
                 <span>Men</span>
             </div>
-            <img className='access' src={accessories} />
+            <img className='access' src={accessories} alt='icon' />
             <div className='accessor'>
                 <span>
                     accessories
@@ -38,18 +38,18 @@ function Banner(){
     <div className='headerSpecification'>
         <li>
             <img src={carIcon}  alt=''/>
-            <a className=''>free shipping </a>
+            <a href='/1'>free shipping </a>
             <p className=''>On all UA order or order above $100 </p>
 
         </li>
         <li>
             <img src={returnIcon} alt='icon'/>
-            <a className="">30 DAYS RETURN</a>
+            <a href='/1'>30 DAYS RETURN</a>
             <p className=''>Simply return it within 30 days for an exchange</p>
         </li>
         <li>
             <img src={supportIcon} alt='icon'/>
-            <a className=''>SUPPORT 24/7</a>
+            <a href='/1'>SUPPORT 24/7</a>
             <p className=''>Contact us 24 hours a day, 7 days a week</p>
         </li>
     </div>

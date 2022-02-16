@@ -25,7 +25,7 @@ function BannerSubscribe(){
                         sale
                     </span>
                    <span>
-                      Get UP to <a className='colorText'> 50% off </a>
+                      Get UP to <a href='/1' className='colorText'> 50% off </a>
                     </span>
                </div>
            </div>
@@ -39,7 +39,7 @@ function BannerSubscribe(){
                       <span> Subscribe And <p>Get 10% Off</p>
                           </span>
                    </div>
-                   <a>Enter your email</a>
+                   <a href='/1'>Enter your email</a>
                    <button>subscribe</button>
                    <img src={bannerBottom4} alt='menPicture'/>
 

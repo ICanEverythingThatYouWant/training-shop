@@ -13,7 +13,7 @@ function Blog(){
                 </h2>
                 <div className='blogCard'>
                     <div className='blogCardDescription'>
-                        <img src={blog1}/>
+                        <img src={blog1} alt='icon'/>
                         <div className='blogText'>
                             <h3>
                                 The Easiest Way to Break
@@ -25,7 +25,7 @@ function Blog(){
                         </div>
                     </div>
                     <div className='blogCardDescription'>
-                        <img src={blog2}/>
+                        <img alt='icon' src={blog2}/>
                         <div className='blogText'>
                             <h3>
                                 Wedding Season
@@ -36,7 +36,7 @@ function Blog(){
                         </div>
                     </div>
                     <div className='blogCardDescription'>
-                        <img src={blog3}/>
+                        <img alt='icon' src={blog3}/>
                         <div className='blogText'>
                             <h3>
                                 Recent Favorites On Repeat

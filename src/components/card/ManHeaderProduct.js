@@ -5,7 +5,7 @@ import burger from  '../../img/burger.svg';
 import show from '../../img/showCard.PNG';
 
 
-function ManHeaderDescription(){
+function ManHeaderProduct(){
     return (
         <div className="HeaderMenProduct">
             <div className='productNavigation'>
@@ -16,7 +16,7 @@ function ManHeaderDescription(){
                 <b>
                     ►Men
                 </b>
-                    <img src={share}/>
+                    <img src={share} alt='icon'/>
                     <span>
                         Share
                     </span>
@@ -27,14 +27,14 @@ function ManHeaderDescription(){
                 </span>
             </div>
             <div className='showContent'>
-                <img src={filter}/>
+                <img src={filter} alt='icon'/>
                 <span> filter
                 </span>
-                <img src={burger}/>
-                <img src={show}/>
+                <img src={burger} alt='icon'/>
+                <img src={show} alt='icon'/>
             </div>
         </div>
     );
 }
 
-export default ManHeaderDescription;
+export default ManHeaderProduct;

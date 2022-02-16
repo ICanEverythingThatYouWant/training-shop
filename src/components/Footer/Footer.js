@@ -53,37 +53,37 @@ function Footer(){
                         <p>Categories</p>
                         <li><a href='/Men'>Men</a></li>
                         <li><a href='/Women'>Women</a></li>
-                        <li><a href='#'>Accessories</a></li>
-                        <li><a href='#'>Beauty</a></li>
+                        <li><a href='1'>Accessories</a></li>
+                        <li><a href='1'>Beauty</a></li>
                     </ul>
                 </div>
                 <div >
                     <ul className='footerDescription'>
                         <p>information</p>
-                        <li><a href='#'>About Us</a></li>
-                        <li><a href='#'>Contact Us</a></li>
-                        <li><a href='#'>Blog</a></li>
-                        <li><a href='#'>FAQs</a></li>
+                        <li><a href='1'>About Us</a></li>
+                        <li><a href='1'>Contact Us</a></li>
+                        <li><a href='1'>Blog</a></li>
+                        <li><a href='1'>FAQs</a></li>
                     </ul>
                 </div>
                 <div >
                     <ul className='footerDescription'>
                         <p>Useful links</p>
-                        <li><a href='#'>Terms & Conditions Returns </a></li>
-                        <li><a href='#'> Returns & Exchanges</a></li>
-                        <li><a href='#'> Shipping & Delivery</a></li>
-                        <li><a href='#'> Privacy Policy</a></li>
+                        <li><a href='1'>Terms & Conditions Returns </a></li>
+                        <li><a href='1'> Returns & Exchanges</a></li>
+                        <li><a href='1'> Shipping & Delivery</a></li>
+                        <li><a href='1'> Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div >
                     <ul className='footerDescription'>
                         <p>CONTACT US</p>
-                        <li><a href='#'><img src={locationIcon} alt='icon'/>
+                        <li><a href='1'><img src={locationIcon} alt='icon'/>
                             Belarus, Gomel, Lange 17</a></li>
-                        <li><a href='#'><img src={phoneIcon}  alt='icon'/>
+                        <li><a href='1'><img src={phoneIcon}  alt='icon'/>
                             +375 29 100 20 30</a></li>
-                        <li><a href='#'><img src={timeWorkIcon} alt='icon'/> All week 24/7</a></li>
-                        <li><a href='#'><img src={mailIcon}  alt='icon'/> info@clevertec.ru</a></li>
+                        <li><a href='1'><img src={timeWorkIcon} alt='icon'/> All week 24/7</a></li>
+                        <li><a href='1'><img src={mailIcon}  alt='icon'/> info@clevertec.ru</a></li>
                     </ul>
                 </div>
             </div>
@@ -98,7 +98,7 @@ function Footer(){
                 <img src={pay5}  alt='icon'/>
                 <img src={pay6}  alt='icon'/>
                 <img src={pay7}  alt='icon'/>
-                <a href='#'>Clevertec.ru/training</a>
+                <a href='1'>Clevertec.ru/training</a>
             </div>
         </div>
     );

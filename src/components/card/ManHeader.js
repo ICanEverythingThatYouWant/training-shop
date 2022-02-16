@@ -6,11 +6,11 @@ function ManHeader(){
         <div className="menHeader">
             <ul className='menuWomen'>
                 <p>Men's</p>
-                <li><a href='#'>new arrivals</a></li>
-                <li><a href='#'>specials</a></li>
-                <li><a href='#'>bestsellers</a></li>
-                <li><a href='#'>most viewed</a></li>
-                <li><a href='#'>featured products</a></li>
+                <li><a href='1'>new arrivals</a></li>
+                <li><a href='1'>specials</a></li>
+                <li><a href='1'>bestsellers</a></li>
+                <li><a href='1'>most viewed</a></li>
+                <li><a href='1'>featured products</a></li>
             </ul>
         </div>
     );
