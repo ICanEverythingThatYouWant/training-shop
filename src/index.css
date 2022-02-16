@@ -735,7 +735,7 @@ body{
 .rating {
   display: flex;
   margin-left: 100px;
-  justify-content: end;
+  justify-content: flex-end;
   margin-top: -14px;
 }
 
@@ -844,7 +844,18 @@ body{
   margin-left: 11px;
   list-style-type: none;
 }
+.headerDescription li a{
+  text-decoration: none;
 
+}
+.subscribeBanner a {
+  text-decoration: none;
+
+}
+.headerSpecification li a {
+  text-decoration: none;
+
+}
 .footerCategories{
   display: flex;
   justify-content: space-evenly;
