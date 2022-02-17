@@ -1,12 +1,12 @@
 import React from "react";
-import { Routes, Route, HashRouter} from 'react-router-dom'
+import { Routes, Route, BrowserRouter} from 'react-router-dom'
 import Main from "./components/Pages/Main";
 import Men from "./components/Pages/Men";
 import Women from "./components/Pages/Women";
 import ProductPage from "./components/Pages/ProductPage";
 function App() {
   return <div>
-      <HashRouter>
+      <BrowserRouter>
           <Routes>
                   <Route path='training-shop' index element={<Main/>} />
                   <Route path="/Main" element={<Main/> }/>
@@ -14,7 +14,7 @@ function App() {
                   <Route path="/Women" element={<Women/>} />
               <Route path="/ProductPage" element={<ProductPage/>} />
           </Routes>
-      </HashRouter>,
+      </BrowserRouter>,
   </div>
 }
 

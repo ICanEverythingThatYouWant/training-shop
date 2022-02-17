@@ -11,7 +11,7 @@ import worldIcon from "../../img/Vector8.svg";
 import personIcon from "../../img/4092564-about-mobile-ui-profile-ui-user-website_114033.svg";
 import shopIcon from "../../img/Vector 11.svg";
 import React from "react";
-
+import {Link} from "react-router-dom";
 
 function Header(){
     return (
@@ -48,12 +48,12 @@ function Header(){
             </div>
         </div>
     <div className='headerNavigation'>
-        <a href="/Main" className='logo' > <img src={CleverShopLogo}  alt='agag'/>
-        </a>
+        <Link to="/Main" className='logo' > <img src={CleverShopLogo}  alt='agag'/>
+        </Link>
         <ul className='mnu_top'>
             <li><a href='1'>About Us</a></li>
-            <li><a href="/Women">Women</a></li>
-            <li><a href='/Men'>Men</a></li>
+            <li><Link to="/Women">Women</Link></li>
+            <li><Link to='/Men'>Men</Link></li>
             <li><a href='1'>Beauty</a></li>
             <li><a href='1'>Accessories</a></li>
             <li><a href='1'>Blog</a></li>
