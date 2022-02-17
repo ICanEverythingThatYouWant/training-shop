@@ -52,8 +52,8 @@ function Footer(){
                 <div >
                     <ul className='footerDescription'>
                         <p>Categories</p>
-                        <li><Link to='/Men'>Men</></li>
-                        <li><Link to='/Women'>Women</></li>
+                        <li><Link to='/Men'>Men</Link></li>
+                        <li><Link to='/Women'>Women</Link></li>
                         <li><a href='1'>Accessories</a></li>
                         <li><a href='1'>Beauty</a></li>
                     </ul>
