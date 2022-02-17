@@ -14,13 +14,14 @@ import pay4 from "../../img/pay4.svg";
 import pay5 from "../../img/pay5.svg";
 import pay6 from "../../img/pay6.svg";
 import pay7 from "../../img/pay7.svg";
+import {Link} from "react-router-dom";
 
 
 
 
 function Footer(){
     return (
-        <div>
+        <div data-test-id='footer'>
             <div className='footer'>
                 <div className='headerFooter'>
               <span>
@@ -51,8 +52,8 @@ function Footer(){
                 <div >
                     <ul className='footerDescription'>
                         <p>Categories</p>
-                        <li><a href='/Men'>Men</a></li>
-                        <li><a href='/Women'>Women</a></li>
+                        <li><Link to='/Men'>Men</></li>
+                        <li><Link to='/Women'>Women</></li>
                         <li><a href='1'>Accessories</a></li>
                         <li><a href='1'>Beauty</a></li>
                     </ul>

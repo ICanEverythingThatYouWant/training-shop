@@ -3,6 +3,7 @@ body{
   font-family: system-ui;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 .textNumber{
@@ -383,9 +384,11 @@ body{
   color: #121212;
 
 }
+.women{
+  display: grid;
+}
 
 .women .menuWomen{
-
   list-style-type: none;
   width: 1200px;
 }
@@ -744,10 +747,12 @@ body{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-left: 70px;
+  grid-template: auto/repeat(auto-fit, minmax(255px, 1fr));
 }
 
 .card{
   margin-top: 30px;
+
 }
 
 .seeAll{
@@ -1711,93 +1716,5 @@ body{
 .arrow-item__related img:nth-child(2){
   margin-left: 30px;
 
-}
-
-@media (max-width: 1200px) {
-  .headerDescription {
-    width: 500px;
-    justify-content: flex-start;
-  }
-  .headerDescription a{
-    height: 100px;
-    width: 170px;
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 40px;
-    margin-top: -15px;
-  }
-  .iconMessenger{
-    margin-left: -10px;
-  }
-
-
-}
-
-@media (max-width: 1200px){
-  .headerNavigation{
-    margin-top: 40px;
-
-  }
-  .mnu_top{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .mnu_top a {
-    margin-top: 10px;
-  }
-  .mnu_right {
-    margin-left: -55px;
-  }
-  .titleMen{
-    display: none;
-  }
-  .men{
-    display: none;
-  }
-  .womenBanner{
-    display: none;
-  }
-  .titleWomen{
-    display: none;
-  }
-  .accessor{
-    display: none;
-  }
-  .access{
-    display: none;
-  }
-  .imageTitle{
-    margin-left: 100px;
-  }
-  .titleText{
-    margin-left: 222px;
-  }
-  .arrowLeft{
-    margin-left: 135px;
-  }
-  .arrowRight{
-    margin-left: 590px;
-  }
-  .headerSpecification {
-    display: grid;
-    grid-template: auto/repeat(auto-fit, minmax(300px, 1fr));
-  }
-  .womenCard{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 1100px){
-  .womenCard{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 900px){
-  .womenCard{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
 }
 

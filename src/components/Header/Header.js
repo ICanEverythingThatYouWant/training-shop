@@ -15,7 +15,7 @@ import {Link} from "react-router-dom";
 
 function Header(){
     return (
-        <div>
+        <div data-test-id='header'>
         <div className='headerInfo'>
             <div className='headerDescription'>
                 <li>
@@ -47,8 +47,8 @@ function Header(){
                 </div>
             </div>
         </div>
-    <div className='headerNavigation'>
-        <Link to="/Main" className='logo' > <img src={CleverShopLogo}  alt='agag'/>
+    <div className='headerNavigation' data-test-id='menu'>
+        <Link to="/Main" className='logo' data-test-id='header-logo-link' > <img src={CleverShopLogo}  alt='agag'/>
         </Link>
         <ul className='mnu_top'>
             <li><a href='1'>About Us</a></li>
